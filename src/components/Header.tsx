@@ -1,7 +1,7 @@
 import { useState } from "react"
 import { useNavigate } from "react-router-dom"
 import { Link, NavLink } from "react-router-dom"
-import Logo from "../assets/logo.jpg"
+import Logo from "../assets/logo.webp"
 const Header = ()=>{
     const navigate = useNavigate()
     const [isVisible, setIsVisible] = useState<boolean>(false)
